@@ -1,0 +1,13 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Secure weather app with CI/CD",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node app.js"
+  },
+  "keywords": ["weather", "nodejs", "ci-cd"],
+  "author": "1ms23cs199-dotcom",
+  "license": "MIT"
+}
