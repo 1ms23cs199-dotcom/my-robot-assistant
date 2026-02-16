@@ -1,13 +1,20 @@
 {
-  "name": "weather-app",
+  "name": "my-robot-assistant",
   "version": "1.0.0",
-  "description": "Secure weather app with CI/CD",
+  "description": "CI/CD learning project with multi-language testing",
   "main": "app.js",
   "scripts": {
-    "test": "node test.js",
-    "start": "node app.js"
+    "test": "jest"
   },
-  "keywords": ["weather", "nodejs", "ci-cd"],
+  "keywords": ["ci-cd", "testing", "multi-language"],
   "author": "1ms23cs199-dotcom",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/*.test.js"
+    ]
+  }
 }
